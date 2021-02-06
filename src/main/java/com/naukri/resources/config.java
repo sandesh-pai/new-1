@@ -10,6 +10,7 @@ public enum config {
 	fileupload,
 	chrome,
 	firefox,
-	sheetname;
+	sheetname,
+	retryfailedtestcases;
 
 }

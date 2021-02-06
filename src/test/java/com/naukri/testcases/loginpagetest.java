@@ -18,7 +18,7 @@ import com.naukri.resources.*;
 public class loginpagetest extends BasePage{
 	
 	
-	@Test(dataProviderClass = naukriCredentials.class, dataProvider = "getdata")
+	@Test
 	public void loginWithFireFox(Map<String, String>map)
 	{
 		loginpage lp = new loginpage();
@@ -37,7 +37,7 @@ public class loginpagetest extends BasePage{
 	       System.out.println(DriverManager.getDriver().getTitle());
 	}
 	
-@Test(dataProviderClass = naukriCredentials.class, dataProvider = "getdata")
+@Test
 public void loginWithChrome(Map<String, String>map)
 {
 	loginpage lp = new loginpage();
